@@ -6,7 +6,7 @@ This is another API, similar to my Phishing API, except this one aids in Session
 
 TL-DR is that you can jump into a user's session without credentails to access authenticated areas of the web application.  There's a MySQL database which also captures a handful of other useful data, such as timestamps, IP addresses, User Agent strings, Hostnames, and Referer headers.
 
-After I wrote this script I realized anyone could pretty easily create an external JS to be referenced by a payload that JSON encodes the values and sends it directly to an IFTTT incoming webhook, essentially bypassing the need for this API.  Will need to look into that soon, but for now this works well.
+After I wrote this script I realized it may be possible to send the values directly to an IFTTT incoming webhook, essentially bypassing the need for this API or to have anything hosted.  I will need to look into that soon, but for now this works well.
 
 # Future Implementation Goals Include : 
 
