@@ -2,13 +2,18 @@
 Recieve Real-Time Slack (or other) Notifications for When Session Cookies are Captured via Stored and Reflected Cross Site Scripting (XSS)
 
 # Description
-This is another API, similar to my Phishing API, except this one aids in Session Hijacking when HTML Injection/XSS is discovered on a page.  This was born out of a need to do more than the standard JavaScript alert box.  I needed a simple one-liner my team could use whenever they encountered Cross Site Scripting and I needed to act quickly via real-time notifications while the user's session was still valid.  For this to fully work properly, HttpOnly flags can't be set in the target site's cookies.  For those that aren't familiar with Session Hijacking, please read up on it from the OWASP page here : https://www.owasp.org/index.php/Session_hijacking_attack.  TL-DR is that you can jump into a user's session without credentails to access authenticated areas of the web application.  There's a MySQL database which also captures a handful of other useful data, such as timestamps, IP addresses, User Agent strings, Hostnames, and Referer headers.
+This is another API, similar to my Phishing API, except this one aids in Session Hijacking when HTML Injection/XSS is discovered on a page.  This was born out of a need to do more than the standard JavaScript alert box.  I needed a simple one-liner my team could use whenever they encountered Cross Site Scripting and I needed to act quickly via real-time notifications while the user's session was still valid.  For this to fully work properly, HttpOnly flags can't be set in the target site's cookies.  For those that aren't familiar with Session Hijacking, please read up on it from the OWASP page here : https://www.owasp.org/index.php/Session_hijacking_attack.  
 
-Future Implementation Goals Include : 
+TL-DR is that you can jump into a user's session without credentails to access authenticated areas of the web application.  There's a MySQL database which also captures a handful of other useful data, such as timestamps, IP addresses, User Agent strings, Hostnames, and Referer headers.
+
+# Future Implementation Goals Include : 
 
 Capturing Cross Domain Cookies
+
 Hidden User/Pass/CC Fields for Auto Population
+
 Ability to Read Local Storage if Available
+
 Integrate into IFTTT for Alterting Options
 
 
